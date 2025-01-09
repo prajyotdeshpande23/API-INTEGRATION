@@ -1,4 +1,4 @@
-const apiKey = 'e6db6c53ce6db5c1b8d9a9669a61158a'; // Replace with a free news API key
+const apiKey = API_KEY'; // Replace with a free news API key
   const baseUrl = `https://gnews.io/api/v4/top-headlines?apikey=${apiKey}&lang=en&country=in`;
 
     async function fetchNews() {
